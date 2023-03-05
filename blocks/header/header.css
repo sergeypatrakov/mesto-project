@@ -1,0 +1,9 @@
+.header {
+  margin: 0;
+  max-width: 880px;
+  height: 74px;
+  margin-top: 45px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

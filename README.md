@@ -1,17 +1,33 @@
 # Проект: Место
 
-### Обзор
+### Описание:
 
-* Figma
-* Картинки
+Страница о местах в России с формами
 
-**Figma**
+### Технологии:
 
-* [Ссылка на макет в Figma](https://www.figma.com/file/2cn9N9jSkmxD84oJik7xL7/JavaScript.-Sprint-4?node-id=0%3A1)
+HTML, CSS, flex, БЭМ, адаптивная верстка, формы
 
-**Картинки**
+### Автор:
 
-Доставать картинки предстоит из Фигмы. Это расхожая практика, поэтому полезно потренироваться.
-Не забудьте [оптимизировать картинки](https://tinypng.com/), чтобы ваш сайт загружался быстрее.
+[Сергей Патраков](https://github.com/sergeypatrakov)
 
-Удачи!
+### Посмотреть проект: 
+
+___
+
+# Project Mesto
+
+### Description: 
+
+Landing page about Russian places with forms
+
+### Tech:
+
+HTML, CSS, flex, BEM methodology, adaptive layout, forms
+
+### Author:
+
+[Sergey Patrakov](https://github.com/sergeypatrakov)
+
+### View the project: 
