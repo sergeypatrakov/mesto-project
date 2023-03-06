@@ -5,7 +5,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="">
+  <meta name="description" content="Страница о местах в России с формами">
   <meta name="keywords" content="HTML5, CSS">
   <meta name="author" content="Sergey Patrakov">
   <link rel="stylesheet" href="./pages/index.css">
@@ -17,7 +17,7 @@
   <header class="header">
     <img
       src="./images/logo_header.svg"
-      alt="Место Россия"
+      alt="Место Россия логотип"
       class="header__logo"
     >
     <div class="header__line"></div>
@@ -28,24 +28,119 @@
     <section class="profile">
       <img
         src="./images/avatar_image.jpg"
-        alt="Жак Ив Кусто"
+        alt="Жак Ив Кусто (аватар профиля)"
         class="profile__avatar"
       >
       <div class="profile__info">
-        <h2 class="profile__info-title">Жак-Ив Кусто</h2>
-        <p class="profile__info-description">Исследователь океана</p>
+        <div class="profile__name">
+          <h2 class="profile__name-title">Жак-Ив Кусто</h2>
+          <button
+            aria-label="Редактировать"
+            type="button"
+            class="profile__button-edit"
+          ></button>
+        </div>
+        <p class="profile__name-description">Исследователь океана</p>
       </div>
-      <div class="profile profile__button">
-        <img
-          src="./images/add_button.svg"
-          alt="Кнопка"
-          class="profile__button"
-        >
-      </div>
+      <button
+        aria-label="Добавить"
+        type="button"
+        class="profile__button-add"
+      ></button>
     </section>
   
     <section class="elements">
-  
+      <div class="element">
+        <img
+          src="./images/karachaevo.jpg"
+          alt="Карачаево"
+          class="element__image"
+        >
+        <div class="element__caption">
+          <h2 class="element__title">Карачаевск</h2>
+          <button
+            aria-label="Понравилось"
+            type="button"
+            class="element__button-like"
+          ></button>
+        </div>
+      </div>
+      <div class="element">
+        <img
+          src="./images/elbrus.jpg"
+          alt="Эльбрус"
+          class="element__image"
+        >
+        <div class="element__caption">
+          <h2 class="element__title">Гора Эльбрус</h2>
+          <button
+            aria-label="Понравилось"
+            type="button"
+            class="element__button-like"
+          ></button>
+        </div>
+      </div>
+      <div class="element">
+        <img
+          src="./images/dombay.jpg"
+          alt="Домбай"
+          class="element__image"
+        >
+        <div class="element__caption">
+          <h2 class="element__title">Домбай</h2>
+          <button
+            aria-label="Понравилось"
+            type="button"
+            class="element__button-like"
+          ></button>
+        </div>
+      </div>
+      <div class="element">
+        <img
+          src="./images/elbrus.jpg"
+          alt="Эльбрус"
+          class="element__image"
+        >
+        <div class="element__caption">
+          <h2 class="element__title">Гора Эльбрус</h2>
+          <button
+            aria-label="Понравилось"
+            type="button"
+            class="element__button-like"
+          ></button>
+        </div>
+      </div>
+      <div class="element">
+        <img
+          src="./images/dombay.jpg"
+          alt="Домбай"
+          class="element__image"
+        >
+        <div class="element__caption">
+          <h2 class="element__title">Домбай</h2>
+          <button
+            aria-label="Понравилось"
+            type="button"
+            class="element__button-like"
+          ></button>
+        </div>
+      </div>
+      </div>
+      <div class="element">
+        <img
+        src="./images/karachaevo.jpg"
+        alt="Карачаево"
+        class="element__image"
+      >
+      <div class="element__caption">
+        <h2 class="element__title">Карачаевск</h2>
+        <button
+          aria-label="Понравилось"
+          type="button"
+          class="element__button-like"
+        ></button>
+      </div>
+      </div>
     </section>
 
   </main>

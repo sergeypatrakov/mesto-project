@@ -1,7 +1,11 @@
 .elements {
   margin: 0;
+  width: 100%;
   max-width: 880px;
-  max-height: 744px;
-  margin-top: 47.25px;
   display: grid;
+  grid-template-columns: repeat(auto-fit, 282px);
+  padding: 48px 0 0;
+  gap: 20px 17px;
+  justify-items: center;
+  justify-content: center;
 }
