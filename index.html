@@ -20,7 +20,6 @@
       alt="Место Россия логотип"
       class="header__logo"
     >
-    <div class="header__line"></div>
   </header>
 
   <main class="content">
@@ -148,6 +147,29 @@
   <footer class="footer">
     <p class="footer__text">&copy; 2023 Mesto Russia</p>
   </footer>
+
+  <div class="popup">
+    <div class="popup__container">
+      <button
+        aria-label="Закрыть"
+        type="button"
+        class="popup__button-close"
+      ></button>
+        <form class="form" action="/" method="post" name="profile-edit">
+          <h2 class="form__title">Редактировать профиль</h2>
+          <input class="form__input" type="text" name="name-input" id="name-input" value="Жак-Ив Кусто">
+          <input class="form__input" type="text" name="description-input" id="description-input" value="Исследователь океана">
+          <button class="form__button-submit" type="submit">Сохранить</button>
+          <script>
+            const closeBtn = document.querySelector(".popup__button-close");
+            const profileEditBtn = document.querySelector(".profile__button-edit");
+            const popup = document.querySelector(".popup");
+            closeBtn.addEventListener("click", () => popup.classList.remove("popup_opened"));
+            profileEditBtn.addEventListener("click", () => popup.classList.add("popup_opened"));
+          </script>
+        </form>
+    </div>
+  </div>
 
 </body>
 

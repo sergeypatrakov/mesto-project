@@ -1,6 +1,18 @@
 .header__logo {
   margin: 0;
-  max-width: 142px;
-  max-height: 33px;
+  width: 142px;
+  height: 33px;
   color: black;
+  padding: 45px 0 41px;
+  object-position: center;
+  object-fit: cover;
+}
+
+/* 768 */
+@media screen and (max-width: 768px) {
+  .header__logo {
+    width: 104px;
+    height: 24px;
+    padding: 28px 27px 32px;
+  }
 }
