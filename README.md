@@ -12,7 +12,7 @@ HTML, CSS, flex, БЭМ, адаптивная верстка, формы
 
 [Сергей Патраков](https://github.com/sergeypatrakov)
 
-### Посмотреть проект: 
+### Посмотреть проект: https://sergeypatrakov.github.io/mesto-project/
 
 ___
 
@@ -30,4 +30,4 @@ HTML, CSS, flex, BEM methodology, adaptive layout, forms
 
 [Sergey Patrakov](https://github.com/sergeypatrakov)
 
-### View the project: 
+### View the project: https://sergeypatrakov.github.io/mesto-project/
