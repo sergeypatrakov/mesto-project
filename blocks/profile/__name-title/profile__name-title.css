@@ -12,8 +12,8 @@
   padding-right: 18px;
 }
 
-/* 768 */
-@media screen and (max-width: 768px) {
+/* 898 */
+@media screen and (max-width: 898px) {
   .profile__name-title {
     font-size: 27px;
     line-height: 33px;

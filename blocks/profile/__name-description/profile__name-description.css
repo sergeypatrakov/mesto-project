@@ -12,8 +12,8 @@
   overflow: hidden;
 }
 
-/* 768 */
-@media screen and (max-width: 768px) {
+/* 898 */
+@media screen and (max-width: 898px) {
   .profile__name-description {
     max-width: 268px;
     font-size: 14px;

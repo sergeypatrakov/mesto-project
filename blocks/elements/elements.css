@@ -9,3 +9,10 @@
   justify-items: center;
   justify-content: center;
 }
+
+/* 768 */
+@media screen and (max-width: 768px) {
+  .elements {
+    padding: 36px 0 0;
+  }
+}
