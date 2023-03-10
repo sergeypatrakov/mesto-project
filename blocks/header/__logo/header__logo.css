@@ -1,11 +1,11 @@
 .header__logo {
-  margin: 0;
-  width: 142px;
-  height: 33px;
   color: black;
-  padding: 45px 0 41px;
-  object-position: center;
+  height: 33px;
+  margin: 0;
   object-fit: cover;
+  object-position: center;
+  padding: 45px 0 41px;
+  width: 142px;
 }
 
 /* 900 */
@@ -18,7 +18,7 @@
 /* 768 */
 @media screen and (max-width: 768px) {
   .header__logo {
-    width: 104px;
     height: 24px;
+    width: 104px;
   }
 }

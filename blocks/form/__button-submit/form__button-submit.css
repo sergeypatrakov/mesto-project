@@ -1,14 +1,14 @@
 .form__button-submit {
-  height: 50px;
   background-color: #000;
+  border-radius: 2px;
   border: none;
   color: #fff;
+  cursor: pointer;
   font-size: 18px;
   font-weight: 400;
+  height: 50px;
   line-height: 22px;
-  cursor: pointer;
   margin-top: 20px;
-  border-radius: 2px;
 }
 
 .form__button-submit:hover{
@@ -18,8 +18,8 @@
 /* 768 */
 @media screen and (max-width: 768px){
   .form__button-submit {
-    height: 46px;
     font-size: 14px;
+    height: 46px;
     line-height: 17px;
     margin-top: 14px;
   }
